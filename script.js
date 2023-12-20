@@ -42,7 +42,7 @@ diceRoll.addEventListener('click', function () {
   const dice = Math.trunc(Math.random() * 6) + 1;
   // dice image display
   diceImg.classList.remove('hidden');
-  diceImg.src = `dice-${dice}.png`;
+  diceImg.src = `imgs/dice-${dice}.png`;
 
   // check dice
   if (dice !== 1) {
